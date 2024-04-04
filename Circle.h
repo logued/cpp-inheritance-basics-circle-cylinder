@@ -1,10 +1,13 @@
-//
-// Inheritance      April 2022
-//
-
 #ifndef INHERITANCE_BASICS_CIRCLE_CYLINDER_CIRCLE_H
 #define INHERITANCE_BASICS_CIRCLE_CYLINDER_CIRCLE_H
+//
+// Inheritance      April 2024
+//
 
+// Circle class is a Base class for the Cylinder class.
+// Meaning that Cylinder inherits from this class.
+//(It's a Superclass)
+//
 class Circle
 {
 private:
@@ -17,7 +20,7 @@ public:
     void setRadius(double r);
 
     double area() const;
-    double circumfrence() const;
+    double circumference() const;
     void print() const;
 
     ~Circle();  // destructor

@@ -1,6 +1,5 @@
-#include <iostream>
-
-// CircleCylinder.cpp :			// April 2022
+//
+// CircleCylinder.cpp :			// April 2024
 // Demonstrates :
 // Inheritance, override functions
 // Circle is the "base" class (superclass)
@@ -9,6 +8,12 @@
 
 #include "Circle.h"
 #include "Cylinder.h"
+// Note that in Cylinder.h already has included the file Circle.h.
+// However, Circle.h will not be included twice in this file because the
+//  #ifndef INHERITANCE_BASICS_CIRCLE_CYLINDER_CIRCLE_H
+//  #define INHERITANCE_BASICS_CIRCLE_CYLINDER_CIRCLE_H
+// directives will allow it to be defined once, but NOT twice in this code.
+
 #include <iostream>
 using namespace std;
 
@@ -22,11 +27,11 @@ int main()
 
     c1.print();
     cout << "Area: " << c1.area() << endl;
-    cout << "Circumfrence: " << c1.circumfrence() << endl;
+    cout << "Circumfrence: " << c1.circumference() << endl;
 
     c2.print();
     cout << "Area: " << c2.area() << endl;
-    cout << "Circumfrence: " << c2.circumfrence() << endl;
+    cout << "Circumfrence: " << c2.circumference() << endl;
 
     // Create Cylinder objects, which inherit (the radius field) from the Circle class
 

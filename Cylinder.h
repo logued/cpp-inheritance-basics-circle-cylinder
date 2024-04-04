@@ -1,7 +1,9 @@
 #ifndef INHERITANCE_BASICS_CIRCLE_CYLINDER_CYLINDER_H
 #define INHERITANCE_BASICS_CIRCLE_CYLINDER_CYLINDER_H
 
-// Cylinder class inherits from Circle
+// Cylinder class inherits from Circle          April 2024
+// This subclass is called the Derived class in C++
+// Cylinder is derived from Circle
 
 #include "Circle.h"
 

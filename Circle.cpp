@@ -1,5 +1,5 @@
 //
-// April 2022
+// April 2024
 // Inheritance
 //
 
@@ -22,7 +22,7 @@ double Circle::area() const
 {
     return radius * radius * 3.14159265359;
 }
-double Circle::circumfrence() const
+double Circle::circumference() const
 {
     return 2 * 3.14159265359 * radius;
 }

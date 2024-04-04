@@ -5,7 +5,9 @@
 #include "Cylinder.h"
 #include <iostream>
 
-// : Circle() radius) calls the Base Class (superclass) constructor
+// Constructor
+// ": Circle(radius)" calls the Base Class (superclass) constructor to initialize radius field
+//
 Cylinder::Cylinder(double radius, double height) : Circle(radius)
 {
     this->height = height;
@@ -25,7 +27,7 @@ double Cylinder::volume() const
 // override the area() function from Base Class
 double Cylinder::area() const
 {
-    return (Circle::circumfrence()*height) + (2 * Circle::area());
+    return (Circle::circumference() * height) + (2 * Circle::area());
 }
 
 void Cylinder::print() const
