@@ -28,7 +28,7 @@ double Circle::circumference() const
 }
 void Circle::print() const
 {
-    std::cout << "Circle [" << radius << "]" << std::endl;
+    std::cout << "Circle [ Radius = " << radius << "]" << std::endl;
 }
 Circle::~Circle()
 {

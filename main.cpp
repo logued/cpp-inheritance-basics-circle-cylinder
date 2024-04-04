@@ -19,7 +19,7 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Inhertance: Cylinder inherits from Circle\n";
+    std::cout << "Inheritance: Cylinder inherits from Circle\n";
 
     Circle c1;              // create Circle object, uses no-argument constructor
 
@@ -27,11 +27,11 @@ int main()
 
     c1.print();
     cout << "Area: " << c1.area() << endl;
-    cout << "Circumfrence: " << c1.circumference() << endl;
+    cout << "Circumference: " << c1.circumference() << endl;
 
     c2.print();
     cout << "Area: " << c2.area() << endl;
-    cout << "Circumfrence: " << c2.circumference() << endl;
+    cout << "Circumference: " << c2.circumference() << endl;
 
     // Create Cylinder objects, which inherit (the radius field) from the Circle class
 
