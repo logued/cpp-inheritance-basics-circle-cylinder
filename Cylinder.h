@@ -19,10 +19,11 @@ public:
     double getHeight() const;
     void setHeight(double h);
 
-    double volume() const;
-    double area()const ;
+    double volume() const;  // new
+    double area()const ;    // override version form Circle
 
-    void print() const;
+    void print() const;  // override from Circle
+    // getRadius() is inherited (with no change)
 
     ~Cylinder();	// destructor
 };
